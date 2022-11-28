@@ -1,0 +1,79 @@
+Capitulo 1
+
+1- Declaracion Varibles --> (Let num;) (Let num2=1;) (Let num, num2, num3...;) (Let num=1, num2=5, num3=8...;)
+2- Null --> Inicializar una Varibles, pero sin ningun valor
+3- NaN  --> Cuando exite una operacion matematica con texto (No se Puede)
+
+Operador Asignacion
+
+1- Adiccion = x += y;
+2- Sustraccion= x -= y;
+3- Multiplicacion= x *= y;
+4- Divicion= x /= y;
+5- ResiduoDiv= x %= y;
+6- Exponencial= x **= y;
+
+Operadores Aritmeticos
+
+1- Decremento (--) = x--; -->Resta 1 a la X
+2- Incremento (++) = x++; -->Suma 1 a la X
+3- Exponencial (**) = x ** y; --> (y) es el numero a que se va elevar (x)
+4- Unary Negacion (-) = -x; --> Si (x) es positivo, lo pasa a negativo
+
+Concatenar
+
+1- R= frase1 + frase2; --> Concatena solo texto
+2- R= "" + num1 + num2; --> Concatena numeros
+3- R= `Soy &{nombre} y estoy caminando`; concatenacion recomendada
+
+Operadores Comparativos
+
+1- Equality (Igualdad) = a == b;
+2- Inequality (Diferencia) = a != b;
+3- Identily (Igualdad Extricta) = a === b;
+4- Non-Identily (Diferencia Extricta) = a !== b;
+5- Greater Than (Mayor) = a > b;
+6- Greater Than or Equal = a >= b;
+7- Less Than (Menor) = a < b;
+8- Less Than or Equal = a <= b;
+
+Operadores Logicos
+
+1- AND = a && b; --> Si hay un valor (false), todo es false
+2- OR = a || b; --> Si hay un valor (true), todo es true
+3- NOT = !a; --> Da un resultado contrario, (si es true da false) (si es false da true)
+
+Condicionales
+
+1- if () {}
+2- else if () {}
+3- else {}
+
+Problema A
+
+3 chicos de 23 años perfectamente normales entran a una heladería a comprar un helado pero hay un problema: los precios no
+estan al lado de cada estante con su respectivo helado.
+Ellos quieren comprar el helado mas caro que puedan con la plata que tienen, así que... veanos como podenos ayudarlos.
+
+Roberto tiene $1.5 USD
+Pedro tiene $1.7 USD
+Cofla tiene $3 USD
+
+
+Los precios de helados son los siguientes
+
+Palito de helado de agua: $0.6 USD
+Palito de helado de crema: $1 USD
+
+Bombón helado marca heladix: $1.6 USD
+Bonbón helado marca heladovich: $ 1.7 USD
+Bonbón helado marca helardo: $1.8 USD
+Potecito de helado con confites: $2.9 USD
+Pote de 1/4 K6 -> $2.9 USD
+
+
+CREAR SOLUCIONES:
+
+- Pedirles que ingresen el monto que tienen y mostrarles el helado mas caro.
+- Si hay 2 0 mas con el misno precio, mostrar ánbos.
+— Cofla quiere saber cuanto es el vuelto

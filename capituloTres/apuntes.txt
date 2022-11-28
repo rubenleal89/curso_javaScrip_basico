@@ -1,0 +1,24 @@
+Conceptos basicos de POO --> crear soluciones de manera mas optimizada
+
+- Clase --> las clases crean objetos
+- objeto --> los objetos son los resultados de la clase
+- Atributo --> las propiedades que tiene el objeto
+- Metodo --> son las cosas que puede hacer nuestro objeto (funcion dentro clase)
+- Constructor --> es una funcion obligatoria de una clase 
+    (Cuando se crea un clase toca hacer un contructorque que nos va a contruir las propiedades del objeto)
+- Instanciacion --> cuando ya creamos el objeto en la clase
+
+NOTA: NO se puede tener un OBJETO con el MISMO nombre de la CLASE.
+
+Caracteristicas de la POO
+
+- Abstaccién --> reducir el codigo objeto, creando objetos mas generales o caracteristicas principales
+- Modularidad --> resolver problemas grandes separando por partes
+- Encapsulamiento --> hacer que los datos esten privados
+- Polimorfismo --> como ver que un objeto se comporte de manera distinta ante el mismo metodo
+
+Otros conceptos de POO
+
+- Herencia (extends) --> crear clases con herencias de otras
+- Metodos Estaticos (static) --> es un metodo que no necesita que la clase se defina para ser creado
+- Metodos Accesores (get, set) --> get (guarda informacion), set (pide informacion). son usados para acceder a propiedades privadas
